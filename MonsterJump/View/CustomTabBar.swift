@@ -10,7 +10,9 @@ import SwiftUI
 struct CustomTabBar: View {
     @Binding var currentTab: Tab
     @State private var yOffset: CGFloat = 0 //To animate like curve.
-    
+    @State private var isMoving: Bool = false
+    @State private var movingDogOpacity: Double = 0
+    @State private var DogOpacity: Double = 1
     var body: some View {
         GeometryReader { proxy in
             let width = proxy.size.width
@@ -19,13 +21,20 @@ struct CustomTabBar: View {
                 ForEach(Tab.allCases, id: \.rawValue) { tab in
                     Button {
                         withAnimation(.easeInOut(duration: 0.2)) {
+                            isMoving = true
+                            movingDogOpacity = 1
+                            DogOpacity = 0
                             currentTab = tab
                             yOffset = -60
                         }
                         
                         //MARK: reset yOffset with slight delay
-                        withAnimation(.easeInOut(duration: 0.1).delay(0.07)) {
+                        withAnimation(.easeInOut(duration: 0.3).delay(0.17)) {
                             yOffset = 0
+                            isMoving = false
+                            movingDogOpacity = 0
+                            
+                            DogOpacity = 1
                         }
                     } label: {
                             Image(tab.rawValue)
@@ -42,11 +51,26 @@ struct CustomTabBar: View {
             }
             .frame(maxWidth: .infinity)
             .background(alignment: .leading) {
-                Circle()
-                    .fill(Color("Yellow"))
-                    .frame(width: 25, height: 25)
-                    .offset(x: 10, y: yOffset)
+                Image("pixelPug")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+//                Circle()
+//                    .fill(Color("Yellow"))
+                    .frame(width: 28, height: 28)
+                    .offset(x: 1, y: yOffset)
                     .offset(x: indicatorOffset(width: width))
+                    .opacity(DogOpacity)
+                    Image("pixelPug-move")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+    //                Circle()
+    //                    .fill(Color("Yellow"))
+                        .frame(width: 35, height: 35)
+                        .offset(x: 1, y: yOffset)
+                        .offset(x: indicatorOffset(width: width))
+                        .opacity(movingDogOpacity)
+ 
+                
             }
         }
         .frame(height: 30)
