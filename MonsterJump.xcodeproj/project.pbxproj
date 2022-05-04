@@ -17,6 +17,7 @@
 		BF701B0828224F890021717A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701B0728224F890021717A /* CustomTabBar.swift */; };
 		BF701B0A28224FA10021717A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701B0928224FA10021717A /* Tab.swift */; };
 		BF701B0F282251B20021717A /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701B0E282251B20021717A /* View+Ext.swift */; };
+		BF701B1128227B6B0021717A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF701B1028227B6B0021717A /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF701AD828224D2E0021717A /* MonsterJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF701AD828224D2E0021717A /* Pixel Pug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel Pug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF701ADB28224D2E0021717A /* MonsterJumpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterJumpApp.swift; sourceTree = "<group>"; };
 		BF701ADD28224D2E0021717A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF701ADF28224D2F0021717A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		BF701B0728224F890021717A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		BF701B0928224FA10021717A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		BF701B0E282251B20021717A /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		BF701B1028227B6B0021717A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,7 @@
 		BF701AD928224D2E0021717A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF701AD828224D2E0021717A /* MonsterJump.app */,
+				BF701AD828224D2E0021717A /* Pixel Pug.app */,
 				BF701AE828224D2F0021717A /* MonsterJumpTests.xctest */,
 				BF701AF228224D2F0021717A /* MonsterJumpUITests.xctest */,
 			);
@@ -107,6 +109,7 @@
 				BF701B0528224F740021717A /* Model */,
 				BF701ADF28224D2F0021717A /* Assets.xcassets */,
 				BF701AE128224D2F0021717A /* Preview Content */,
+				BF701B1028227B6B0021717A /* Launch Screen.storyboard */,
 			);
 			path = MonsterJump;
 			sourceTree = "<group>";
@@ -177,7 +180,7 @@
 			);
 			name = MonsterJump;
 			productName = MonsterJump;
-			productReference = BF701AD828224D2E0021717A /* MonsterJump.app */;
+			productReference = BF701AD828224D2E0021717A /* Pixel Pug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BF701AE728224D2F0021717A /* MonsterJumpTests */ = {
@@ -264,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF701B1128227B6B0021717A /* Launch Screen.storyboard in Resources */,
 				BF701AE328224D2F0021717A /* Preview Assets.xcassets in Resources */,
 				BF701AE028224D2F0021717A /* Assets.xcassets in Resources */,
 			);
@@ -459,6 +463,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +472,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = frozenpizza.co.MonsterJump;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pixel Pug";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,6 +493,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,7 +502,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = frozenpizza.co.MonsterJump;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pixel Pug";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
