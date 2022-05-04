@@ -19,16 +19,19 @@ struct ContentView: View {
         VStack (spacing: 0) {
             TabView(selection: $currentTab) {
                 Text(Tab.bookmark.rawValue)
+                    .applyBG()
                     .tag(Tab.bookmark)
-                Text(Tab.home.rawValue)
+                Text(Tab.home.rawValue).applyBG()
                     .tag(Tab.home)
-                Text(Tab.plus.rawValue)
+                Text(Tab.plus.rawValue).applyBG()
                     .tag(Tab.plus)
-                Text(Tab.search.rawValue)
+                Text(Tab.search.rawValue).applyBG()
                     .tag(Tab.search)
-                Text(Tab.settings.rawValue)
+                Text(Tab.settings.rawValue).applyBG()
                     .tag(Tab.settings)
             }
+            //MARK: Custom Tab Bar
+            CustomTabBar(currentTab: $currentTab)
         }
     }
 }
