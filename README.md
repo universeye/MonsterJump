@@ -29,11 +29,11 @@ MonsterJump,a tabbar with a dog(Pixel Pug) jumping on it, inspired by the tutori
 # Source
 The tutorial: [Kavsoft](https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w), fully developed with SwiftUI.
 
-Pixel Pug [GIF] (https://tenor.com/view/pug-run-pixel-transparent-dog-gif-15586664)
+Pixel Pug [GIF](https://tenor.com/view/pug-run-pixel-transparent-dog-gif-15586664)
 
 <img src= "ReadmeSources/jumpingpixelpug.png" width = 20% height = 20%> 
 
-[Sitting Pixel Pug] (https://www.nicepng.com/ourpic/u2y3a9u2a9y3q8a9_pixel-pug-pugs-puppydogpals-puppydogpalsrolly-master-pokeball/)
+[Sitting Pixel Pug](https://www.nicepng.com/ourpic/u2y3a9u2a9y3q8a9_pixel-pug-pugs-puppydogpals-puppydogpalsrolly-master-pokeball/)
 
 <img src= "ReadmeSources/sittingpixelpug.png" width = 10% height = 10%> 
 
