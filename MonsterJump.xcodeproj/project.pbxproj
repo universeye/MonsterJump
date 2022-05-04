@@ -14,6 +14,9 @@
 		BF701AED28224D2F0021717A /* MonsterJumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701AEC28224D2F0021717A /* MonsterJumpTests.swift */; };
 		BF701AF728224D2F0021717A /* MonsterJumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701AF628224D2F0021717A /* MonsterJumpUITests.swift */; };
 		BF701AF928224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701AF828224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift */; };
+		BF701B0828224F890021717A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701B0728224F890021717A /* CustomTabBar.swift */; };
+		BF701B0A28224FA10021717A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701B0928224FA10021717A /* Tab.swift */; };
+		BF701B0F282251B20021717A /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701B0E282251B20021717A /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BF701AF228224D2F0021717A /* MonsterJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF701AF628224D2F0021717A /* MonsterJumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterJumpUITests.swift; sourceTree = "<group>"; };
 		BF701AF828224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterJumpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF701B0728224F890021717A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		BF701B0928224FA10021717A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		BF701B0E282251B20021717A /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				BF701ADB28224D2E0021717A /* MonsterJumpApp.swift */,
 				BF701ADD28224D2E0021717A /* ContentView.swift */,
+				BF701B0B282251940021717A /* Extension */,
+				BF701B0628224F780021717A /* View */,
+				BF701B0528224F740021717A /* Model */,
 				BF701ADF28224D2F0021717A /* Assets.xcassets */,
 				BF701AE128224D2F0021717A /* Preview Content */,
 			);
@@ -125,6 +134,30 @@
 				BF701AF828224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift */,
 			);
 			path = MonsterJumpUITests;
+			sourceTree = "<group>";
+		};
+		BF701B0528224F740021717A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF701B0928224FA10021717A /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF701B0628224F780021717A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF701B0728224F890021717A /* CustomTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF701B0B282251940021717A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF701B0E282251B20021717A /* View+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF701ADE28224D2E0021717A /* ContentView.swift in Sources */,
+				BF701B0828224F890021717A /* CustomTabBar.swift in Sources */,
+				BF701B0F282251B20021717A /* View+Ext.swift in Sources */,
 				BF701ADC28224D2E0021717A /* MonsterJumpApp.swift in Sources */,
+				BF701B0A28224FA10021717A /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
