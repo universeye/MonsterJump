@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF701ADC28224D2E0021717A /* MonsterJumpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701ADB28224D2E0021717A /* MonsterJumpApp.swift */; };
+		BF701ADE28224D2E0021717A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701ADD28224D2E0021717A /* ContentView.swift */; };
+		BF701AE028224D2F0021717A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF701ADF28224D2F0021717A /* Assets.xcassets */; };
+		BF701AE328224D2F0021717A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF701AE228224D2F0021717A /* Preview Assets.xcassets */; };
+		BF701AED28224D2F0021717A /* MonsterJumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701AEC28224D2F0021717A /* MonsterJumpTests.swift */; };
+		BF701AF728224D2F0021717A /* MonsterJumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701AF628224D2F0021717A /* MonsterJumpUITests.swift */; };
+		BF701AF928224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701AF828224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF701AE928224D2F0021717A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF701AD028224D2E0021717A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF701AD728224D2E0021717A;
+			remoteInfo = MonsterJump;
+		};
+		BF701AF328224D2F0021717A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF701AD028224D2E0021717A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF701AD728224D2E0021717A;
+			remoteInfo = MonsterJump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF701AD828224D2E0021717A /* MonsterJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF701ADB28224D2E0021717A /* MonsterJumpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterJumpApp.swift; sourceTree = "<group>"; };
+		BF701ADD28224D2E0021717A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF701ADF28224D2F0021717A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF701AE228224D2F0021717A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF701AE828224D2F0021717A /* MonsterJumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterJumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF701AEC28224D2F0021717A /* MonsterJumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterJumpTests.swift; sourceTree = "<group>"; };
+		BF701AF228224D2F0021717A /* MonsterJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF701AF628224D2F0021717A /* MonsterJumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterJumpUITests.swift; sourceTree = "<group>"; };
+		BF701AF828224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterJumpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF701AD528224D2E0021717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF701AE528224D2F0021717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF701AEF28224D2F0021717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF701ACF28224D2E0021717A = {
+			isa = PBXGroup;
+			children = (
+				BF701ADA28224D2E0021717A /* MonsterJump */,
+				BF701AEB28224D2F0021717A /* MonsterJumpTests */,
+				BF701AF528224D2F0021717A /* MonsterJumpUITests */,
+				BF701AD928224D2E0021717A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF701AD928224D2E0021717A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF701AD828224D2E0021717A /* MonsterJump.app */,
+				BF701AE828224D2F0021717A /* MonsterJumpTests.xctest */,
+				BF701AF228224D2F0021717A /* MonsterJumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF701ADA28224D2E0021717A /* MonsterJump */ = {
+			isa = PBXGroup;
+			children = (
+				BF701ADB28224D2E0021717A /* MonsterJumpApp.swift */,
+				BF701ADD28224D2E0021717A /* ContentView.swift */,
+				BF701ADF28224D2F0021717A /* Assets.xcassets */,
+				BF701AE128224D2F0021717A /* Preview Content */,
+			);
+			path = MonsterJump;
+			sourceTree = "<group>";
+		};
+		BF701AE128224D2F0021717A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF701AE228224D2F0021717A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF701AEB28224D2F0021717A /* MonsterJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF701AEC28224D2F0021717A /* MonsterJumpTests.swift */,
+			);
+			path = MonsterJumpTests;
+			sourceTree = "<group>";
+		};
+		BF701AF528224D2F0021717A /* MonsterJumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF701AF628224D2F0021717A /* MonsterJumpUITests.swift */,
+				BF701AF828224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift */,
+			);
+			path = MonsterJumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF701AD728224D2E0021717A /* MonsterJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF701AFC28224D2F0021717A /* Build configuration list for PBXNativeTarget "MonsterJump" */;
+			buildPhases = (
+				BF701AD428224D2E0021717A /* Sources */,
+				BF701AD528224D2E0021717A /* Frameworks */,
+				BF701AD628224D2E0021717A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterJump;
+			productName = MonsterJump;
+			productReference = BF701AD828224D2E0021717A /* MonsterJump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF701AE728224D2F0021717A /* MonsterJumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF701AFF28224D2F0021717A /* Build configuration list for PBXNativeTarget "MonsterJumpTests" */;
+			buildPhases = (
+				BF701AE428224D2F0021717A /* Sources */,
+				BF701AE528224D2F0021717A /* Frameworks */,
+				BF701AE628224D2F0021717A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF701AEA28224D2F0021717A /* PBXTargetDependency */,
+			);
+			name = MonsterJumpTests;
+			productName = MonsterJumpTests;
+			productReference = BF701AE828224D2F0021717A /* MonsterJumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF701AF128224D2F0021717A /* MonsterJumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF701B0228224D2F0021717A /* Build configuration list for PBXNativeTarget "MonsterJumpUITests" */;
+			buildPhases = (
+				BF701AEE28224D2F0021717A /* Sources */,
+				BF701AEF28224D2F0021717A /* Frameworks */,
+				BF701AF028224D2F0021717A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF701AF428224D2F0021717A /* PBXTargetDependency */,
+			);
+			name = MonsterJumpUITests;
+			productName = MonsterJumpUITests;
+			productReference = BF701AF228224D2F0021717A /* MonsterJumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF701AD028224D2E0021717A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BF701AD728224D2E0021717A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					BF701AE728224D2F0021717A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BF701AD728224D2E0021717A;
+					};
+					BF701AF128224D2F0021717A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BF701AD728224D2E0021717A;
+					};
+				};
+			};
+			buildConfigurationList = BF701AD328224D2E0021717A /* Build configuration list for PBXProject "MonsterJump" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF701ACF28224D2E0021717A;
+			productRefGroup = BF701AD928224D2E0021717A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF701AD728224D2E0021717A /* MonsterJump */,
+				BF701AE728224D2F0021717A /* MonsterJumpTests */,
+				BF701AF128224D2F0021717A /* MonsterJumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF701AD628224D2E0021717A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF701AE328224D2F0021717A /* Preview Assets.xcassets in Resources */,
+				BF701AE028224D2F0021717A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF701AE628224D2F0021717A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF701AF028224D2F0021717A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF701AD428224D2E0021717A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF701ADE28224D2E0021717A /* ContentView.swift in Sources */,
+				BF701ADC28224D2E0021717A /* MonsterJumpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF701AE428224D2F0021717A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF701AED28224D2F0021717A /* MonsterJumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF701AEE28224D2F0021717A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF701AF728224D2F0021717A /* MonsterJumpUITests.swift in Sources */,
+				BF701AF928224D2F0021717A /* MonsterJumpUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF701AEA28224D2F0021717A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF701AD728224D2E0021717A /* MonsterJump */;
+			targetProxy = BF701AE928224D2F0021717A /* PBXContainerItemProxy */;
+		};
+		BF701AF428224D2F0021717A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF701AD728224D2E0021717A /* MonsterJump */;
+			targetProxy = BF701AF328224D2F0021717A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF701AFA28224D2F0021717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF701AFB28224D2F0021717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF701AFD28224D2F0021717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonsterJump/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = frozenpizza.co.MonsterJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF701AFE28224D2F0021717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonsterJump/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = frozenpizza.co.MonsterJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF701B0028224D2F0021717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = frozenpizza.co.MonsterJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterJump.app/MonsterJump";
+			};
+			name = Debug;
+		};
+		BF701B0128224D2F0021717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = frozenpizza.co.MonsterJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterJump.app/MonsterJump";
+			};
+			name = Release;
+		};
+		BF701B0328224D2F0021717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = frozenpizza.co.MonsterJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonsterJump;
+			};
+			name = Debug;
+		};
+		BF701B0428224D2F0021717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = frozenpizza.co.MonsterJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonsterJump;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF701AD328224D2E0021717A /* Build configuration list for PBXProject "MonsterJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF701AFA28224D2F0021717A /* Debug */,
+				BF701AFB28224D2F0021717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF701AFC28224D2F0021717A /* Build configuration list for PBXNativeTarget "MonsterJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF701AFD28224D2F0021717A /* Debug */,
+				BF701AFE28224D2F0021717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF701AFF28224D2F0021717A /* Build configuration list for PBXNativeTarget "MonsterJumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF701B0028224D2F0021717A /* Debug */,
+				BF701B0128224D2F0021717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF701B0228224D2F0021717A /* Build configuration list for PBXNativeTarget "MonsterJumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF701B0328224D2F0021717A /* Debug */,
+				BF701B0428224D2F0021717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF701AD028224D2E0021717A /* Project object */;
+}
