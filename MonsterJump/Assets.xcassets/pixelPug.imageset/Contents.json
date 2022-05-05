@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "942-9427895_pixel-pug-pugs-puppydogpals-puppydogpalsrolly-master-pokeball.png",
+      "filename" : "pixelPug.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "pixelPug@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "pixelPug@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

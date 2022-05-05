@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF44D8722823BCA500623A0C /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8712823BCA500623A0C /* LaunchScreenView.swift */; };
+		BF44D8742823C4D300623A0C /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44D8732823C4D300623A0C /* LaunchScreenManager.swift */; };
 		BF701ADC28224D2E0021717A /* MonsterJumpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701ADB28224D2E0021717A /* MonsterJumpApp.swift */; };
 		BF701ADE28224D2E0021717A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF701ADD28224D2E0021717A /* ContentView.swift */; };
 		BF701AE028224D2F0021717A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF701ADF28224D2F0021717A /* Assets.xcassets */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF44D8702823BC1200623A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BF44D8712823BCA500623A0C /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		BF44D8732823C4D300623A0C /* LaunchScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenManager.swift; sourceTree = "<group>"; };
 		BF701AD828224D2E0021717A /* Pixel Pug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel Pug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF701ADB28224D2E0021717A /* MonsterJumpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterJumpApp.swift; sourceTree = "<group>"; };
 		BF701ADD28224D2E0021717A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,8 +107,11 @@
 		BF701ADA28224D2E0021717A /* MonsterJump */ = {
 			isa = PBXGroup;
 			children = (
+				BF44D8702823BC1200623A0C /* Info.plist */,
 				BF701ADB28224D2E0021717A /* MonsterJumpApp.swift */,
 				BF701ADD28224D2E0021717A /* ContentView.swift */,
+				BF44D8712823BCA500623A0C /* LaunchScreenView.swift */,
+				BF44D8732823C4D300623A0C /* LaunchScreenManager.swift */,
 				BF701B0B282251940021717A /* Extension */,
 				BF701B0628224F780021717A /* View */,
 				BF701B0528224F740021717A /* Model */,
@@ -296,9 +304,11 @@
 			files = (
 				BF701ADE28224D2E0021717A /* ContentView.swift in Sources */,
 				BF701B0828224F890021717A /* CustomTabBar.swift in Sources */,
+				BF44D8742823C4D300623A0C /* LaunchScreenManager.swift in Sources */,
 				BF701B0F282251B20021717A /* View+Ext.swift in Sources */,
 				BF701ADC28224D2E0021717A /* MonsterJumpApp.swift in Sources */,
 				BF701B0A28224FA10021717A /* Tab.swift in Sources */,
+				BF44D8722823BCA500623A0C /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,9 +470,9 @@
 				DEVELOPMENT_TEAM = 9T3DK8DFL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonsterJump/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -490,9 +500,9 @@
 				DEVELOPMENT_TEAM = 9T3DK8DFL5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonsterJump/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @EnvironmentObject var launchScreenManager: LaunchScreenManager
+    
     init() {
         UITabBar.appearance().isHidden = true
     }
@@ -33,11 +35,16 @@ struct ContentView: View {
             //MARK: Custom Tab Bar
             CustomTabBar(currentTab: $currentTab)
         }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                launchScreenManager.dismiss()
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(LaunchScreenManager())
     }
 }
