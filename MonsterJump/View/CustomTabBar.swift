@@ -37,15 +37,15 @@ struct CustomTabBar: View {
                             DogOpacity = 1
                         }
                     } label: {
-                            Image(tab.rawValue)
-                                .renderingMode(.template)
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 30, height: 30)
-                                .frame(maxWidth: .infinity)
-                                .foregroundColor(currentTab == tab ? Color("Purple") : .gray)
-                        //Little scalling effect
-                                .scaleEffect(currentTab == tab && yOffset != 0 ? 1.5 : 1)
+                        Image(tab.rawValue)
+                            .renderingMode(.template)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 30, height: 30)
+                            .frame(maxWidth: .infinity)
+                            .foregroundColor(currentTab == tab ? Color("Purple") : .gray)
+                            //Little scalling effect
+                            .scaleEffect(currentTab == tab && yOffset != 0 ? 1.5 : 1)
                     }
                 }
             }
@@ -54,22 +54,22 @@ struct CustomTabBar: View {
                 Image("pixelPug")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-//                Circle()
-//                    .fill(Color("Yellow"))
+                //                Circle()
+                //                    .fill(Color("Yellow"))
                     .frame(width: 28, height: 28)
                     .offset(x: 1, y: yOffset)
                     .offset(x: indicatorOffset(width: width))
                     .opacity(DogOpacity)
-                    Image("pixelPug-move")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-    //                Circle()
-    //                    .fill(Color("Yellow"))
-                        .frame(width: 35, height: 35)
-                        .offset(x: 1, y: yOffset)
-                        .offset(x: indicatorOffset(width: width))
-                        .opacity(movingDogOpacity)
- 
+                Image("pixelPug-move")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                //                Circle()
+                //                    .fill(Color("Yellow"))
+                    .frame(width: 35, height: 35)
+                    .offset(x: 1, y: yOffset)
+                    .offset(x: indicatorOffset(width: width))
+                    .opacity(movingDogOpacity)
+                
                 
             }
         }

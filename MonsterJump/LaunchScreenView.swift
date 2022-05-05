@@ -21,12 +21,22 @@ struct LaunchScreenView: View {
             logo
         }
         .onReceive(timer) { input in //whenever it reveive a value from our timer, trigger something
-            
-            //First phase with continuous scaling
-            withAnimation(.spring()) {
-                firstPhaseIsAnimating.toggle()
+            switch launchScreenManager.state {
+                
+            case .first:
+                //First phase with continuous scaling
+                withAnimation(.spring()) {
+                    firstPhaseIsAnimating.toggle()
+                }
+            case .second:
+                withAnimation(.easeInOut) {
+                    secondPhaseIsAnimating.toggle()
+                }
+            default: break
             }
+            
         }
+        .opacity(secondPhaseIsAnimating ? 0 : 1)
     }
 }
 
@@ -49,5 +59,6 @@ private extension LaunchScreenView {
             .aspectRatio(contentMode: .fit)
             .frame(width: 100, height: 100)
             .scaleEffect(firstPhaseIsAnimating ? 0.6 : 1)
+            .scaleEffect(secondPhaseIsAnimating ? UIScreen.main.bounds.size.height / 4 : 1)
     }
 }

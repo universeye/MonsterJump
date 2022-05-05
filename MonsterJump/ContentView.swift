@@ -20,8 +20,14 @@ struct ContentView: View {
     var body: some View {
         VStack (spacing: 0) {
             TabView(selection: $currentTab) {
-                Text(Tab.bookmark.rawValue)
-                    .applyBG()
+                VStack {
+                    Image(Tab.bookmark.rawValue)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100, height: 100)
+                    Text(Tab.bookmark.rawValue)
+                        
+                }.applyBG()
                     .tag(Tab.bookmark)
                 Text(Tab.home.rawValue).applyBG()
                     .tag(Tab.home)
@@ -36,7 +42,7 @@ struct ContentView: View {
             CustomTabBar(currentTab: $currentTab)
         }
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                 launchScreenManager.dismiss()
             }
         }
